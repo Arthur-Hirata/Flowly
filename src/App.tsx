@@ -1,14 +1,12 @@
-
 import './App.css'
+import Navbar from './Components/Navbar'
 
 function App() {
 
   return (
-    <>
-    <main className='bg-slate-900 h-screen'>
-
+    <main className='bg-background pt-6 min-h-screen text-text font-poppins '>
+      <Navbar />
     </main>
-    </>
   )
 }
 

@@ -11,7 +11,18 @@
   --color-hover : #10B981;
   --font-poppins : "Poppins", sans-serif;
 }
-@light-theme{
+:root{
+  background: #0B1110;
+  --color-card: #111C19;
+  --color-primary: #10B981;
+  --color-secondary: #34D399;
+  --color-text: #F0FDF4;
+  --color-muted: #94A3A8;
+  --color-border: #1F302B;
+  --color-hover : #10B981;
+  --font-poppins : "Poppins", sans-serif;
+}
+:root[data-theme="ligth"]{
   --color-background: #F6FBF9;
   --color-card: #FFFFFF;
   --color-primary: #059669;

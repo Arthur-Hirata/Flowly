@@ -9,8 +9,8 @@ function Button({ children, variant = "primary",  onClick } : ButtonProps){
       onClick={onClick}
       className={`${
         variant === "primary"
-          ? "bg-primary"
-          : "bg-primary"
+          ? "bg-primary text-white"
+          : "bg-primary  text-white"
       } rounded-2xl w-30 h-7 hover:transition-transform duration-300 ease-in-out hover:scale-105` }
     >
       {children}

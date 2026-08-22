@@ -1,35 +1,35 @@
 @import "tailwindcss";
 
 @theme{
-  --color-background: #0B1110;
-  --color-card: #111C19;
-  --color-primary: #10B981;
-  --color-secondary: #34D399;
-  --color-text: #F0FDF4;
-  --color-muted: #94A3A8;
-  --color-border: #1F302B;
-  --color-hover : #10B981;
+  --color-background: var(--background);
+  --color-card: var(--card);
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-text: var(--text);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-hover : var(--hover);
   --font-poppins : "Poppins", sans-serif;
 }
 :root{
-  background: #0B1110;
-  --color-card: #111C19;
-  --color-primary: #10B981;
-  --color-secondary: #34D399;
-  --color-text: #F0FDF4;
-  --color-muted: #94A3A8;
-  --color-border: #1F302B;
-  --color-hover : #10B981;
-  --font-poppins : "Poppins", sans-serif;
+  --background: #F6FBF9;
+  --card: #FFFFFF;
+  --primary: #059669;
+  --secondary: #10B981;
+  --text: #0F172A;
+  --muted: #64748B;
+  --border: #DCE7E2;
+  --hover : #2563EB;
 }
-:root[data-theme="ligth"]{
-  --color-background: #F6FBF9;
-  --color-card: #FFFFFF;
-  --color-primary: #059669;
-  --color-secondary: #10B981;
-  --color-text: #0F172A;
-  --color-muted: #64748B;
-  --color-border: #DCE7E2;
-  --color-hover : #2563EB;
-  --font-poppins : "Poppins", sans-serif;
+:root[data-theme="dark"]{
+  --background: #0B1110;
+  --card: #111C19;
+  --primary: #10B981;
+  --secondary: #34D399;
+  --text: #F0FDF4;
+  --muted: #94A3A8;
+  --border: #1F302B;
+  --hover : #10B981;
+
 }
+

@@ -9,7 +9,7 @@ function Button({ children, variant = "primary",  onClick } : ButtonProps){
       onClick={onClick}
       className={`${
         variant === "primary"
-          ? "bg-muted"
+          ? "bg-primary"
           : "bg-primary"
       } rounded-2xl w-30 h-7` }
     >

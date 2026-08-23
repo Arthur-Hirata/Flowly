@@ -3,6 +3,7 @@ import Navbar from './Components/Navbar'
 import Hero from './Sections/Hero'
 import Metrics from './Sections/Metrics'
 import Resources from './Sections/Resources'
+import HowWork from './Sections/HowWork'
 function App() {
 
   return (
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <Metrics />
       <Resources />
+      <HowWork/>
     </main>
   )
 }

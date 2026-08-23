@@ -32,4 +32,7 @@
   --hover : #10B981;
 
 }
+html{
+  scroll-behavior: smooth;
+}
 

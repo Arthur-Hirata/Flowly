@@ -3,7 +3,7 @@ import ResourcesCard from "../Components/ResourcesCard"
 
 function Resources(){
     return(
-        <div className="flex flex-col mt-30 gap-10  justify-itens-center items-center">
+        <div className="flex flex-col mt-30 gap-10  justify-itens-center items-center" id="resources">
             <SectionTittle children="Tudo o que você precisa para manter seus projetos no caminho certo."/>
             <span className="text-center text-xl text-muted">Ferramentas simples e poderosas para transformar ideias em resultados.</span>
             <div className="grid grid-cols-3 gap-20">

@@ -22,7 +22,7 @@ function Navbar() {
         localStorage.setItem("theme", nextTheme)
     }
     return (
-        <nav className="bg-card flex h-20 w-screen justify-between items-center pl-4 pr-4 border border-border static  ">
+        <nav className="bg-card flex h-20 w-full justify-between items-center pl-4 pr-4 border border-border static  ">
             <h1 className="text-4xl font-bold">Flowly</h1>
             <div className="gap-25 flex font-bold">
                 <span className="inline-block transition-transform duration-300 ease-in-out hover:scale-110 hover:text-hover">Recursos</span>

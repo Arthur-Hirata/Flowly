@@ -4,9 +4,9 @@ interface HowWorksCardPropos {
 }
 function HowWorkCard({tittle, children} : HowWorksCardPropos){
     return (
-        <div className="w-90 h-70 bg--card border border-border rounded-b-md">
-            <span>{tittle}</span>
-            <span>{children}</span>
+        <div className="flex h-40 w-full flex-col items-center gap-2 rounded-b-md border border-border bg-card p-6 text-center">
+            <span className="font-bold">{tittle}</span>
+            <span className="text-center text-muted">{children}</span>
         </div>
     )
 }

@@ -6,7 +6,7 @@ interface MetricsCardProps {
 
 function MetricsCard({tittle, children} : MetricsCardProps){
     return(
-        <div className="w-70 h-60 rounded-md bg-card flex flex-col justify-items-center items-center">
+        <div className="w-70 h-70 rounded-md bg-card flex flex-col justify-items-center items-center hover:transition-transform duration-300 ease-in-out hover:scale-105 border border-border">
             <span className="font-bold text-7xl mt-20 text-hover">{tittle}</span>
             <span className="mt-10">{children}</span>
         </div>

@@ -19,7 +19,7 @@
   --text: #0F172A;
   --muted: #64748B;
   --border: #DCE7E2;
-  --hover : #2563EB;
+  --hover : #10B981;
 }
 :root[data-theme="dark"]{
   --background: #0B1110;

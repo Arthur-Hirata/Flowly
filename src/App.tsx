@@ -4,6 +4,7 @@ import Hero from './Sections/Hero'
 import Metrics from './Sections/Metrics'
 import Resources from './Sections/Resources'
 import HowWork from './Sections/HowWork'
+import Spotlight from './Sections/Spotlight'
 function App() {
 
   return (
@@ -13,6 +14,7 @@ function App() {
       <Metrics />
       <Resources />
       <HowWork/>
+      <Spotlight />
     </main>
   )
 }

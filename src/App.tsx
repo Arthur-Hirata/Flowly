@@ -5,6 +5,7 @@ import Metrics from './Sections/Metrics'
 import Resources from './Sections/Resources'
 import HowWork from './Sections/HowWork'
 import Spotlight from './Sections/Spotlight'
+import Depoiments from './Sections/Depoiments'
 function App() {
 
   return (
@@ -15,6 +16,7 @@ function App() {
       <Resources />
       <HowWork/>
       <Spotlight />
+      <Depoiments />
     </main>
   )
 }

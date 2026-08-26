@@ -11,15 +11,31 @@ function FaqCard({title, children} : FaqCardProps){
         setIsClosed((currentState) => !currentState)
     }
     return (
-        <div className="group flex flex-col items-center w-180 h-30 rounded-xl border border-border bg-card p-6 shadow-sm transition-all ">
-            <span className="text-center text-3xl font-bold">{title}</span>
-            <button onClick={toggleCard}>{isClosed ? "⌄" : "^"}</button>
-            {!isClosed && (
-                <div className="mt-6 flex flex-col items-center">
-                    <span className="text-center text-sm text-muted">{children}</span>
-                </div>
-            )}
-        </div>
+        <div className="group flex w-180 flex-col items-center overflow-hidden rounded-xl border border-border bg-card p-6 shadow-sm">
+            <span className="text-center text-3xl font-medium">{title}</span>
+            <button
+                onClick={toggleCard}
+                className="mt-1 self-end text-3xl transition-transform duration-300"
+                aria-expanded={!isClosed}
+            >
+            {isClosed ? "⌄" : "^"}
+            </button>
+
+  <div
+    className={`grid transition-all duration-400 ease-in-out ${
+      isClosed
+        ? "grid-rows-[0fr] opacity-0"
+        : "grid-rows-[1fr] opacity-100"
+    }`}
+  >
+    <div className="overflow-hidden">
+      <hr className="my-4 w-full border-border" />
+      <span className="block text-center text-sm text-muted">
+        {children}
+      </span>
+    </div>
+  </div>
+</div>
     )
 }
 export default FaqCard

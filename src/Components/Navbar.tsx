@@ -28,7 +28,7 @@ function Navbar() {
                 <a href="#resources"><span className="inline-block transition-transform duration-300 ease-in-out hover:scale-110 hover:text-hover">Recursos</span></a>
                 <a href="#Como-funciona"><span className="inline-block transition-transform duration-300 ease-in-out hover:scale-110 hover:text-hover">Como funciona</span></a>
                 <a href="#Preços"><span className="inline-block transition-transform duration-300 ease-in-out hover:scale-110 hover:text-hover">Preços</span></a>
-                <span className="inline-block transition-transform duration-300 ease-in-out hover:scale-110 hover:text-hover">FAQ</span>
+                <a href="#Faq"><span className="inline-block transition-transform duration-300 ease-in-out hover:scale-110 hover:text-hover">FAQ</span></a>
             </div>
             <div className="flex gap-5 items-center ">
             <button className="bg-primary rounded-2xl w-30 h-7 hover:transition-transform duration-300 ease-in-out hover:scale-105">

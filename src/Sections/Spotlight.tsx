@@ -15,7 +15,7 @@ function Spotlight(){
             <div className="bg-card w-200 h-100 rounded-md border border-border flex flex-col justify-items-center items-center gap-10">
                 <div className=" flex flex-col mt-10 gap-10">
                     {destaques.map((destaque) => (
-                        <div className=" bg-background w-150 h-12 rounded-2xl flex flex-col justify-center items-center">
+                        <div className=" bg-background w-150 h-12 rounded-2xl flex flex-col justify-center items-center border border-border">
                             <span className="text-2xl text-center font-bold">{destaque.text}</span>
                         </div>
                     ))}

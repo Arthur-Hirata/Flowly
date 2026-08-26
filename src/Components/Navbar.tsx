@@ -22,7 +22,7 @@ function Navbar() {
         localStorage.setItem("theme", nextTheme)
     }
     return (
-        <nav className="bg-card flex h-20 w-full justify-between items-center pl-4 pr-4 border border-border static  ">
+        <nav className="bg-card flex h-20 w-full justify-between items-center pl-4 pr-4 border border-border sticky top-0 z-50  ">
             <h1 className="text-4xl font-bold">Flowly</h1>
             <div className="gap-25 flex font-bold">
                 <a href="#resources"><span className="inline-block transition-transform duration-300 ease-in-out hover:scale-110 hover:text-hover">Recursos</span></a>
@@ -31,10 +31,10 @@ function Navbar() {
                 <a href="#Faq"><span className="inline-block transition-transform duration-300 ease-in-out hover:scale-110 hover:text-hover">FAQ</span></a>
             </div>
             <div className="flex gap-5 items-center ">
-            <button className="bg-primary rounded-2xl w-30 h-7 hover:transition-transform duration-300 ease-in-out hover:scale-105">
+            <button className="bg-primary rounded-2xl w-30 h-7 hover:transition-transform duration-300 ease-in-out hover:scale-105 text-white">
                 Entrar
             </button>
-            <i className={`fas ${icon} text-2xl hover:transition-transform durantion-300 ease-in-out hover:scale-105`} onClick={changeTheme}></i>
+            <i className={`fas ${icon} text-2xl hover:transition-transform duration-300 ease-in-out hover:scale-105`} onClick={changeTheme}></i>
             </div>
         </nav>
     )

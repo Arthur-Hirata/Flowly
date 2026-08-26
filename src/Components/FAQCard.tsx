@@ -15,7 +15,7 @@ function FaqCard({title, children} : FaqCardProps){
             <span className="text-center text-3xl font-medium">{title}</span>
             <button
                 onClick={toggleCard}
-                className="mt-1 self-end text-3xl transition-transform duration-300"
+                className="mt-1 self-end text-3xl hover:transition-transform duration-300 ease-in-out hover:scale-110"
                 aria-expanded={!isClosed}
             >
             {isClosed ? "⌄" : "^"}

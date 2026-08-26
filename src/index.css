@@ -10,6 +10,7 @@
   --color-border: var(--border);
   --color-hover : var(--hover);
   --font-poppins : "Poppins", sans-serif;
+  --links : #2563EB;
 }
 :root{
   --background: #F6FBF9;

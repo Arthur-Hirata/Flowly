@@ -6,7 +6,7 @@ function Resources(){
         <div className="flex flex-col mt-30 gap-10  justify-itens-center items-center" id="resources">
             <SectionTittle children="Tudo o que você precisa para manter seus projetos no caminho certo."/>
             <span className="text-center text-xl text-muted">Ferramentas simples e poderosas para transformar ideias em resultados.</span>
-            <div className="grid grid-cols-3 gap-20">
+            <div className="grid grid-rows-3 gap-20 mb-0 md:grid-cols-3 md:-mb-90 xl:grid-cols-3 xl:-mb-90">
                 <ResourcesCard children="Crie, organize e acompanhe suas tarefas sem perder tempo procurando o que precisa ser feito." tittle="📋 Gerencie suas tarefas"/>
                 <ResourcesCard children="Tenha uma visão clara do andamento dos seus projetos e saiba exatamente o que precisa de atenção." tittle="📊 Acompanhe seu progresso"/>
                 <ResourcesCard children="Colabore com sua equipe, distribua responsabilidades e mantenha todos alinhados." tittle="👥 Trabalhe em equipe"/>

@@ -34,7 +34,7 @@ function Hero(){
             <div className="bg-gray-800 w-80 rounded-2xl text-white md:w-130 ">
                 <div className="mt-3 ml-2 flex-row">
                     <span className="font-bold text-2xl">Flowly</span>
-                    <i className="fas fa-bell ml-90 text-red-500"></i>
+                    <i className="fas fa-bell ml-40 text-red-500 md:ml-60 xl:ml-90"></i>
                     <i className="fas fa-user text-blue-500 ml-5"></i>
                 </div>
                 <hr  className="mt-3  border-gray-600"/>

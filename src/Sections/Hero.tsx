@@ -3,9 +3,9 @@ import Button from "../Components/Button"
 
 function Hero(){
     return (
-        <div className="flex justify-center itens-center mt-20 gap-30">
+        <div className="flex flex-col justify-center itens-center mt-20 gap-30 md:flex-row ml-10 xl:flex-row">
             <div className="flex flex-col items-start gap-6">
-                <span className="font-bold text-primary">
+                <span className=" max-w-xl -ml-4 font-bold text-primary md:ml-0">
                     Organize seu trabalho de uma nova forma
                 </span>
 
@@ -21,7 +21,7 @@ function Hero(){
                     progresso e alcançar seus objetivos.
                 </p>
 
-                <div className="flex flex-wrap gap-4">
+                <div className=" flex flex-wrap  justify-center -ml-5 gap-4 md:ml-0">
                     <Button variant="primary">
                         Começar grátis
                     </Button>
@@ -31,7 +31,7 @@ function Hero(){
                     </Button>
                 </div>
             </div>
-            <div className="bg-gray-800 w-130 rounded-2xl text-white">
+            <div className="bg-gray-800 w-80 rounded-2xl text-white md:w-130 ">
                 <div className="mt-3 ml-2 flex-row">
                     <span className="font-bold text-2xl">Flowly</span>
                     <i className="fas fa-bell ml-90 text-red-500"></i>

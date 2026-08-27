@@ -22,9 +22,9 @@ function Navbar() {
         localStorage.setItem("theme", nextTheme)
     }
     return (
-        <nav className="bg-card flex h-20 w-full justify-between items-center pl-4 pr-4 border border-border sticky top-0 z-50  ">
+        <nav className="bg-card flex h-20 w-full justify-between items-center pl-4 pr-4 border border-border sticky top-0 z-50 ">
             <h1 className="text-4xl font-bold">Flowly</h1>
-            <div className="gap-25 flex font-bold">
+            <div className="hidden md:flex gap-25 font-bold">
                 <a href="#resources"><span className="inline-block transition-transform duration-300 ease-in-out hover:scale-110 hover:text-hover">Recursos</span></a>
                 <a href="#Como-funciona"><span className="inline-block transition-transform duration-300 ease-in-out hover:scale-110 hover:text-hover">Como funciona</span></a>
                 <a href="#Preços"><span className="inline-block transition-transform duration-300 ease-in-out hover:scale-110 hover:text-hover">Preços</span></a>

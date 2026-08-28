@@ -10,15 +10,15 @@ function Depoiments () {
         <div className="flex flex-col justify-center items-center mt-30">
             <SectionTittle children="Avaliações" />
             <div className="flex flex-col justify-around items-center gap-30 md:flex-row">
-                <div className="flex flex-col gap-10 mt-10">
-                    {Depoiments.map((depoiment) => (
-                        <DepoimentsCard  name={depoiment.name} content={depoiment.content} firm={depoiment.firm}/>
-                    ))}
-                </div>
-                 <span className="text-5xl text-center font-bold text-primary flex flex-col gap-3">
-                    <span className="text-9xl ">4.9/5</span> <br />
-                Avaliação média
-                </span>
+            <div className="flex flex-col gap-10 mt-10">
+                {Depoiments.map((depoiment) => (
+                    <DepoimentsCard  name={depoiment.name} content={depoiment.content} firm={depoiment.firm}/>
+                ))}
+            </div>
+            <span className="text-5xl text-center font-bold text-primary flex flex-col gap-3">
+                <span className="text-9xl ">4.9/5</span> <br />
+            Avaliação média
+            </span>
             </div>
         </div>
     )

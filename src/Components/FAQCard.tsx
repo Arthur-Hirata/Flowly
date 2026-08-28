@@ -11,7 +11,7 @@ function FaqCard({title, children} : FaqCardProps){
         setIsClosed((currentState) => !currentState)
     }
     return (
-        <div className="group flex w-180 flex-col items-center overflow-hidden rounded-xl border border-border bg-card p-6 shadow-sm">
+        <div className="group flex w-90 flex-col items-center overflow-hidden rounded-xl border border-border bg-card p-6 shadow-sm md:w-180">
             <span className="text-center text-3xl font-medium">{title}</span>
             <button
                 onClick={toggleCard}

@@ -31,7 +31,7 @@ function Hero(){
                     </Button>
                 </div>
             </div>
-            <div className="bg-gray-800 w-80 rounded-2xl text-white md:w-130 ">
+            <div className="bg-gray-800 w-80 ml-14 rounded-2xl text-white md:w-130 md:mt-0">
                 <div className="mt-3 ml-2 flex-row">
                     <span className="font-bold text-2xl">Flowly</span>
                     <i className="fas fa-bell ml-40 text-red-500 md:ml-60 xl:ml-90"></i>

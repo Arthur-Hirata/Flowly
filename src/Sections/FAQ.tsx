@@ -9,9 +9,9 @@ function FAQ(){
         {title : "Existe período de teste?", content : "Sim. O plano Pro possui um período de teste gratuito de 14 dias."}
     ]
     return (
-        <div id="Faq" className="flex flex-col justify-center items-center mt-20">
+        <div id="Faq" className="flex flex-col justify-center items-center mt-295 md:mt-0">
             <SectionTittle children="Perguntas Frequentes"/>
-            <div className="flex flex-row justify-around items-center gap-20">
+            <div className="flex flex-col justify-around items-center gap-20 md:flex-row">
                 <div className="flex flex-col justify-center mt-20 gap-5">
                     {FAQs.map((FAQ) => (
                         <FaqCard title={FAQ.title} children={FAQ.content}/>

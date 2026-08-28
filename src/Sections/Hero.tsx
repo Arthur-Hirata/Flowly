@@ -3,7 +3,7 @@ import Button from "../Components/Button"
 
 function Hero(){
     return (
-        <div className="flex flex-col justify-center itens-center mt-20 gap-30 md:flex-row ml-10 xl:flex-row">
+        <div id="hero" className="flex flex-col justify-center itens-center mt-20 gap-30 md:flex-row ml-10 xl:flex-row">
             <div className="flex flex-col items-start gap-6">
                 <span className=" max-w-xl -ml-4 font-bold text-primary md:ml-0">
                     Organize seu trabalho de uma nova forma

@@ -8,15 +8,15 @@ function Spotlight(){
 
     ]
     return (
-        <div className="flex flex-col items-center justify-items-center mt-30 gap-10">
+        <div className="flex flex-col items-center justify-items-center mt-30 gap-10 w-99 md:w-full">
             <SectionTittle children="Tenha uma visão completa do seu trabalho."/>
-            <span className="text-muted">De pequenas tarefas a grandes projetos, o Flowly ajuda você a entender exatamente o que está acontecendo.</span>
+            <span className="text-muted text-center">De pequenas tarefas a grandes projetos, o Flowly ajuda você a entender exatamente o que está acontecendo.</span>
 
-            <div className="bg-card w-200 h-100 rounded-md border border-border flex flex-col justify-items-center items-center gap-10">
+            <div className="bg-card w-90 h-100 rounded-md border border-border flex flex-col justify-items-center items-center gap-10 md:w-200">
                 <div className=" flex flex-col mt-10 gap-10">
                     {destaques.map((destaque) => (
-                        <div className=" bg-background w-150 h-12 rounded-2xl flex flex-col justify-center items-center border border-border">
-                            <span className="text-2xl text-center font-bold">{destaque.text}</span>
+                        <div className=" bg-background w-70 h-12 rounded-2xl flex flex-col justify-center items-center border border-border md:w-150">
+                            <span className="text-1xl text-center font-bold md:text-2xl">{destaque.text}</span>
                         </div>
                     ))}
                 </div>
